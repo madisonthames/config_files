@@ -1,6 +1,6 @@
 Installation
 
-  $ git clone https://github.com/joseph-tohdjojo/dot_files.git ~/.dot_files
+  $ git clone https://github.com/joseph-tohdjojo/dot_files.git ~/path_to_where_repo_will_live/dot_files
 
 
 
