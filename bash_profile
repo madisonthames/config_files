@@ -37,14 +37,30 @@ export ps1=$cyan'\n\d '$light_gray'\a 💩 $(
     else echo "'$cyan'"$(__git_ps1 " (%s)")
     fi)'$yellow" \w "$cyan"→ "$green
 
+
+
+
+
+#############
+# ALIASES   #
+#############
+
+# Change directories
 alias dm="cd ~/devmtn"
 alias code="cd ~/coding"
 alias ..="cd .."
+
+# Live-server
 alias lsq='live-server -q'
-alias ucp="uncommitted ~/devmtn"
+
+# Git
+alias ucdm="uncommitted ~/DevMtn" # Install https://github.com/eapen/uncommitted
+alias uccd="uncommitted ~/Coding"
 alias grv="git remote -v"
 alias gs='git status'
 alias ga='git add'
 alias gcm='git commit -m'
 alias gp='git push'
+
+# Reload .bash_profile
 alias srcbp="source ~/.bash_profile"
