@@ -6,7 +6,7 @@ Installation
 
 Create symlinks:
 
-  $ ln -s ~/.dot_files/bash_profile ~/.bash_profile
-  $ ln -s ~/.dot_files/bashrc ~/.bashrc
-  $ ln -s ~/.dot_files/git-completion.bash ~/.git-completion.bash
-  $ ln -s ~/.dot_files/git-prompt.sh ~/.git-prompt.sh
+  $ ln -s ~/path_to_repo/dot_files/bash_profile ~/.bash_profile
+  $ ln -s ~/path_to_repo/dot_files/bashrc ~/.bashrc
+  $ ln -s ~/path_to_repo/dot_files/git-completion.bash ~/.git-completion.bash
+  $ ln -s ~/path_to_repo/dot_files/git-prompt.sh ~/.git-prompt.sh
