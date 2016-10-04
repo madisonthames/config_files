@@ -1,0 +1,17 @@
+[user]
+	name = Joseph Toh Djojo
+	email = joseph.tohdjojo@gmail.com
+[color]
+	ui = auto
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input
+	excludesfile = /Users/Joe/.gitignore_global
+	editor = vim
+[apply]
+	whitespace = nowarn
