@@ -2,6 +2,8 @@ Installation
 
   $ git clone https://github.com/joseph-tohdjojo/dot_files.git ~/.dot_files
 
+
+
 Create symlinks:
 
   $ ln -s ~/.dot_files/bash_profile ~/.bash_profile
