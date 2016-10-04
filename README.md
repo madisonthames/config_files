@@ -1,4 +1,4 @@
-Installation
+## Installation
 
 ```
 $ git clone https://github.com/joseph-tohdjojo/dot_files.git ~/path_to_where_repo_will_live/dot_files
@@ -6,7 +6,7 @@ $ git clone https://github.com/joseph-tohdjojo/dot_files.git ~/path_to_where_rep
 
 
 
-Create symlinks:
+## Create symlinks:
 
 ```
 $ ln -s ~/path_to_repo/dot_files/bash_profile ~/.bash_profile
