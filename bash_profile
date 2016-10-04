@@ -46,4 +46,5 @@ alias grv="git remote -v"
 alias gs='git status'
 alias ga='git add'
 alias gcm='git commit -m'
+alias gp='git push'
 alias srcbp="source ~/.bash_profile"
