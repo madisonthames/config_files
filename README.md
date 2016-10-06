@@ -1,4 +1,4 @@
-This is my custom tutorial. The original can be found here: http://neverstopbuilding.com/gitpro
+This tutorial was copied from here: http://neverstopbuilding.com/gitpro and was modified for my needs
 
 ## 1. Create the files you need
 
