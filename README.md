@@ -34,7 +34,7 @@ $ chmod 755 ~/.git-prompt.sh
 
 ## 4. Populate your .bash_profile
 
-copy the `bash_profile` into your home directory as `.bash_profile` You may already have things in this file; if so, you may add this to the bottom or top.
+copy the `bash_profile` into your home directory as `.bash_profile`. You may already have things in this file; if so, you may add this to the bottom or top.
 
 
 
