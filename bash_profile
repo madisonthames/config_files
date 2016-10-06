@@ -58,7 +58,7 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR='Yes'
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
-export PS1="\n $txtred$USER 💩  $txtgrn\w '$(
+export PS1="\n "$txtred$USER" 💩  "$txtgrn"\w "'$(
 		if [[ $(__git_ps1) =~ \*\)$ ]]; then
 		# a file has been modified but not added
 			echo $txtylw$(__git_ps1 "(%s)")
@@ -70,7 +70,7 @@ export PS1="\n $txtred$USER 💩  $txtgrn\w '$(
 			echo $txtcyn$(__git_ps1 "(%s)")
 		fi
 	)'
-$txtblu$ $txtrst"
+$txtblu"$ "$txtrst
 
 
 
