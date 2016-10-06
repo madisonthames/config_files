@@ -36,4 +36,11 @@ $ chmod 755 ~/.git-prompt.sh
 
 copy the `bash_profile` into your home directory as `.bash_profile` You may already have things in this file; if so, you may add this to the bottom or top.
 
+
+
+
 ## 5. Reset your terminal
+
+```
+source ~/.bash_profile
+```
