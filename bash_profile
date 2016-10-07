@@ -58,17 +58,17 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR='Yes'
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
-export PS1="\n "$txtred$USER" 💩  "$txtgrn"\w "$(
+export PS1="\n "$txtred$USER" 💩  "$txtgrn"\w "'$(
 		if [[ $(__git_ps1) =~ \*\)$ ]]; then
 		# a file has been modified but not added
-			echo $txtylw$(__git_ps1 "(%s)")
+			echo "'$txtylw'"$(__git_ps1 "(%s)")
 		elif [[ $(__git_ps1) =~ \+\)$ ]]; then
 		# a file has been added, but not commited
-			echo $txtpur$(__git_ps1 "(%s)")
+			echo "'$txtpur'"$(__git_ps1 "(%s)")
 		# the state is clean, changes are commited
 		else
-			echo $txtcyn$(__git_ps1 "(%s)")
-		fi)"\n"$txtblu"$ "$txtrst
+			echo "'$txtcyn'"$(__git_ps1 "(%s)")
+		fi)'"\n"$txtblu"$ "$txtrst
 
 
 
