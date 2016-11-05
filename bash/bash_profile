@@ -3,6 +3,8 @@
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
+export PATH="$PATH:$HOME/.yarn/bin"
+
 
 
 
@@ -83,9 +85,10 @@ chrome () {
   open -a "Google Chrome" "$1"
 }
 
-# Git add all and commit
+# Git add single file and commit
 gacm () {
-  git acm "$*"
+  git add "$1"
+	git commit -m "$2"
 }
 
 # Create a directory and enter it immediately
@@ -113,7 +116,7 @@ alias gg='git status -s'
 
 # Change directories
 alias dm="cd ~/devmtn"
-alias code="cd ~/coding"
+alias coding="cd ~/coding"
 alias ..="cd .."
 
 # Live-server
@@ -124,8 +127,6 @@ alias ucdm="uncommitted ~/DevMtn" # Install https://github.com/eapen/uncommitted
 alias uccd="uncommitted ~/Coding"
 alias grv="git remote -v"
 alias gs='git status'
-alias ga='git add'
-alias gcm='git commit -m'
 alias gp='git push'
 alias gpom="git push origin master"
 
