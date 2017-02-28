@@ -2,11 +2,12 @@ This tutorial was copied from here: http://neverstopbuilding.com/gitpro and was 
 
 ## 1. Create symlinks for each file
 
+If the file already exists, you will have to delete it before creating a symlink
 ```
 $ ln -s /path_to_this_repository/bash/bash_profile ~/.bash_profile
 $ ln -s /path_to_this_repository/bash/bashrc ~/.bashrc
-$ ln -s /path_to_this_repository/bash/git-completion.bash ~/.git-completion.bash
-$ ln -s /path_to_this_repository/bash/git-prompt.sh ~/.git-prompt.sh
+$ ln -s /path_to_this_repository/git/git-completion.bash ~/.git-completion.bash
+$ ln -s /path_to_this_repository/git/git-prompt.sh ~/.git-prompt.sh
 ...
 
 continue for other config files
