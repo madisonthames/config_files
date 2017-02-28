@@ -10,6 +10,7 @@ $ ln -s ~/path_to_this_repository/git/git-completion.bash ~/.git-completion.bash
 $ ln -s ~/path_to_this_repository/git/git-prompt.sh ~/.git-prompt.sh
 $ ln -s ~/path_to_this_repository/atom/snippets.cson ~/.atom/snippets.cson
 $ ln -s ~/path_to_this_repository/atom/config.cson ~/.atom/config.cson
+$ ln -s ~/Google\ Drive/Coding/CustomConfigs/VSCode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 etc...
 
 continue for other config files
