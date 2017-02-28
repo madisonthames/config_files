@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source ~/.profile
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
@@ -115,15 +116,13 @@ alias ll='ls -lah'
 alias gg='git status -s'
 
 # Change directories
-alias dm="cd ~/devmtn"
-alias coding="cd ~/coding"
+alias coding="cd ~/Google\ Drive/Coding"
 alias ..="cd .."
 
 # Live-server
 alias lsq='live-server -q'
 
 # Git
-alias ucdm="uncommitted ~/DevMtn" # Install https://github.com/eapen/uncommitted
 alias uccd="uncommitted ~/Coding"
 alias grv="git remote -v"
 alias gs='git status'
@@ -131,5 +130,9 @@ alias gp='git push'
 alias gpom="git push origin master"
 
 # Reload .bash_profile
-alias prof="atom ~/.bash_profile"
-alias reprof=". ~/.bash_profile"
+alias prof="source ~/.bash_profile"
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
