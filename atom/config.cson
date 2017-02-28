@@ -1,0 +1,115 @@
+"*":
+  "atom-alignment": {}
+  "atom-beautify":
+    css:
+      align_assignments: true
+      indent_size: 2
+      newline_between_rules: true
+      preserve_newlines: true
+    general:
+      _analyticsUserId: "a215a403-832b-4898-af49-739fd3ee4e8a"
+    html:
+      indent_inner_html: true
+      indent_size: 2
+    js:
+      indent_size: 2
+      indent_with_tabs: true
+      space_after_anon_function: true
+      space_in_paren: true
+    json:
+      indent_size: 2
+      indent_with_tabs: true
+  "atom-html-preview":
+    triggerOnSave: true
+  "atom-jshint": {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#edc74a"
+      accentColor: "#517aff"
+      genAccent: true
+      predefinedColor: "Amber"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-terminal": {}
+  autosave:
+    enabled: true
+  "chrome-color-picker":
+    General: {}
+  core:
+    disabledPackages: [
+      "cdnjs"
+      "an-color-picker"
+      "react"
+    ]
+    excludeVcsIgnoredPaths: false
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    useCustomTitleBar: true
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "mononoki"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  emmet: {}
+  "exception-reporting":
+    userId: "ebd2f285-d406-014c-90fd-7b11af31cee9"
+  "file-icons": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  linter:
+    errorPanelHeight: 26
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#c9a9fa"
+        cyan: "#9aedfd"
+        green: "#5af78d"
+        magenta: "#ff92d1"
+        red: "#ff6e67"
+        white: "#c7c7c7"
+        yellow: "#f3f89d"
+      zBright:
+        brightBlack: "#5e5e5e"
+        brightBlue: "#b598e2"
+        brightCyan: "#80c6d4"
+        brightGreen: "#50dc7d"
+        brightMagenta: "#e17fb7"
+        brightRed: "#e2615b"
+        brightWhite: "#eeeeee"
+        brightYellow: "#d9de8d"
+    style:
+      theme: "dracula"
+  "terminal-plus":
+    ansiColors:
+      normal:
+        blue: "#ff9300"
+    core: {}
+    iconColors:
+      blue: "#1833ff"
+    style:
+      fontSize: "13"
+      theme: "dracula"
+  "tree-view": {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1488183228
+  welcome:
+    showOnStartup: false
+  whitespace: {}
