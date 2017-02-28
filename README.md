@@ -1,6 +1,6 @@
 This tutorial was copied from here: http://neverstopbuilding.com/gitpro and was modified for my needs
 
-## 1. Create symlinks
+## 1. Create symlinks for each file
 
 ```
 $ ln -s /path_to_this_repository/bash/bash_profile ~/.bash_profile
