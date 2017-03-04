@@ -116,7 +116,7 @@ alias ll='ls -lah'
 alias gg='git status -s'
 
 # Change directories
-alias coding="cd ~/Google\ Drive/Coding"
+alias coding="cd ~/Coding"
 alias ..="cd .."
 
 # Live-server
