@@ -70,6 +70,7 @@
     showIconsInEditorGutter: true
   linter:
     errorPanelHeight: 26
+  "linter-eslint": {}
   minimap:
     plugins:
       "find-and-replace": true
@@ -109,7 +110,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1488271855
+    lastInit: 1488597444
   welcome:
     showOnStartup: false
   whitespace: {}

@@ -142,20 +142,19 @@
   'React':
     'prefix': 'react'
     'body': """
-            import React, {Component} from 'react'
+            import React from 'react'
 
-            export default class App extends Component {
-              constructor(props){
-                super(props)
-                this.state = {}
-              }
+            const $1 = React.createClass() {
               render() {
                 return(
                   <div>
+
                   </div>
                 )
-              }
+              },
             }
+
+            export default $1
             """
 
 
@@ -173,7 +172,12 @@
   'Input':
     'prefix': 'input'
     'body': """
-            <input className="$1" type="${2:text}" placeholder="$3" onChange={ (event) => this.${4:functionName}(event.target.value)} />
+            <input
+              className="$1"
+              type="${2:text}"
+              placeholder="$3"
+              onChange={this.handleInputChange}
+            />
             $4
             """
 
@@ -182,8 +186,13 @@
   'Button':
     'prefix': 'button'
     'body': """
-            <button className="$1" type="button" onClick={}>$2</button>
-            $3
+            <button
+              className="$1"
+              type="button"
+              onClick={}
+            >
+              $2
+            </button>
             """
 
 
@@ -191,8 +200,7 @@
   'Header':
     'prefix': 'h1'
     'body': """
-            <h${1:1} className="$2">$3</h${1:1}>
-            $4
+            <h${1:1}></h${1:1}>
             """
 
 
@@ -201,7 +209,6 @@
     'prefix': 'a'
     'body': """
             <a href="$1">$2</a>
-            $3
             """
 
 
@@ -209,8 +216,7 @@
   'Image':
     'prefix': 'img'
     'body': """
-            <img src="$1">$2</img>
-            $3
+            <img src="$1" />
             """
 
 
